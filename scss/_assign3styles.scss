@@ -1,10 +1,23 @@
-//@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,600italic|Poiret+One)
-
+//imports
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One);
 
 //custom
-/*.columns {
+.columns {
   border: 10px solid red;
-  }*/
+  }
+
+//Custom Style#1
+#banner1 {
+	background-color: $primary-background-color;
+		a {
+			color: white;
+			font-family: matrix-code;
+		}
+}
+
+//Custom Style#2
+
+//Custom Style#3
 
 footer {
 	margin: 1em 0 ;
@@ -13,3 +26,4 @@ footer {
 	color: #999;
 	text-align: center;
 }
+
